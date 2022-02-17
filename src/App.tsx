@@ -1,13 +1,7 @@
 import React from "react";
-import "./Style/App.scss";
-import Hello from "./Hello";
 
 const App: React.FC = () => {
-  return (
-    <div className="first">
-      <Hello name="규찬" />
-    </div>
-  );
+  return <div className="first"></div>;
 };
 
 export default App;

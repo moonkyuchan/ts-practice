@@ -5,7 +5,11 @@ type HelloProps = {
 };
 
 const Hello: React.FC<HelloProps> = ({ name }) => {
-  return <div>hello , {name}</div>;
+  return (
+    <>
+      <h1>{name}</h1>
+    </>
+  );
 };
 
 export default Hello;
